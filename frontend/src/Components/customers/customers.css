@@ -1,0 +1,29 @@
+.customers {
+    text-align: center;	
+    height: 100% ;
+}	
+
+
+.customers> table {
+    width:94%;
+    margin: 3%;
+}
+
+.customers> td, .customers>th{
+    border: 1px solid black;
+}
+thead>tr{
+    background-color: grey;
+    font-size: larger;
+}
+tbody>tr:nth-child(odd){
+    background-color: cadetblue;
+}
+
+tbody>tr:nth-child(even){
+    background-color: darkseagreen;
+}
+
+img {
+     height: 50px;
+}

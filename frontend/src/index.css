@@ -1,0 +1,13 @@
+body, #root, .index {
+  height: 100%;
+  background-image: linear-gradient(45deg, orangered, cadetblue, aliceblue, cadetblue,aliceblue,cadetblue, aliceblue);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.routing, .customers, .parts { 
+  border: 1p solid black;
+  height: 100%;
+  background-color: aliceblue;
+  height: 100%;
+}

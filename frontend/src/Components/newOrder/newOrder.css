@@ -1,0 +1,21 @@
+.newOrder {
+    text-align: center;	
+    height: 100% ;
+}
+
+.newOrder>form>input, .newOrder>form>select     {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: larger;
+
+    background-color: turquoise;
+}
+
+.newOrder>form>button{
+    background-color: turquoise;
+    font-size: xx-large;
+    width: 300px;
+
+}

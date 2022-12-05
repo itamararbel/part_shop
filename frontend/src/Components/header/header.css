@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 248, 255, 0.3);
+    opacity: 0.9;	
+    margin:20px
+}
+
+.header>h1 {
+    background-color: cadetblue;
+    padding :50px;
+    color: black;
+    box-shadow: 0 30px 40px rgba(47,79,79,0.9);
+    border-radius: 200px;
+
+}
+
+.links{
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.links:hover {
+     text-shadow: 1px 1px 1px black;
+}

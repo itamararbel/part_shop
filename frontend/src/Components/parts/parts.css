@@ -1,0 +1,27 @@
+.parts {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;	
+    height: 100% ;
+
+}
+
+.box {
+    display: inline-block; 
+    border: 1px black groove;
+    width:150px;
+    background-color: orangered;
+    border-radius: 10px;
+    height: 120px;
+    margin-top: 20px;
+}
+h6 {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.box> button{
+    background: none;
+    border: none;
+    float: right;
+}
